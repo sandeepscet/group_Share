@@ -1,0 +1,3 @@
+Test on multiple stackExchange sites
+Group and memeber concept to restrict share
+add quora,medium,redit sites that do not have api to share upvotes/star

@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Group Share",
+  "version": "1.0",
+  "description": "Share your Upvotes and Star to your Teammate",
+  "icons": {
+    "48": "img/isandeep.png",
+    "128": "img/isandeep.png",
+    "16": "img/isandeep.png"
+  },
+  "browser_action": {
+    "default_icon": "img/isandeep.png",
+    "default_title": "Sharing is Caring",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "content_scripts":[
+	  {
+		"matches" : ["*://*/*"],
+	    "js":["content_scripts/jquery.js", "content_scripts/groupShare.js"]
+	   }
+  ],
+  "permissions": [
+    "tabs"
+  ]
+}

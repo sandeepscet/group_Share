@@ -1,0 +1,20 @@
+<html>
+<head>
+</head>
+<body onload="onLoad();">
+<script type="text/javascript">
+    function onLoad() {
+        
+if (localStorage["notFirstRun"] != "true") {
+
+    chrome.tabs.create({
+        "url" : "sandeepk.net",
+        "selected" : true
+    });
+
+    localStorage["notFirstRun"] = "true";
+}
+    }
+</script>
+</body>
+</html>

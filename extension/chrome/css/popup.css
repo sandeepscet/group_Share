@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 2px;
+    overflow-x: hidden;
+    background-color: rgba(255,255,255,1.0);
+    width: 400px;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+}
+
+.padding_bottom_5
+{
+    padding-bottom:5px
+}
